@@ -12,10 +12,10 @@ Evento exclusivo e gratuito, promovido pela Include Engenharia.
 </p>
 
 
-
 <p align="center">
-  <img alt="Desafio de Eng. Comp. da Include" src=".github/preview.jpg" width="100%">
+  <img alt="Desafio Include" src=".github/preview.jpg" width="100%">
 </p>
+
 
 ## 🚀 Tecnologias
 
@@ -27,6 +27,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Criar meu próprio site/blog, do tema Oppenheimer e Barbie, que fale sobre mim e sobre a Include Engenharia
+Criar meu próprio site/blog, do tema Oppenheimer e Barbie, que fale sobre mim e sobre a Include Engenharia para o Processo Seletivo Trainee.
 
 Feito para a Include
