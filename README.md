@@ -11,12 +11,6 @@ Evento exclusivo e gratuito, promovido pela Include Engenharia.
  
 </p>
 
-
-<p align="center">
-  <img alt="Desafio Include" src=".github/preview.jpg" width="100%">
-</p>
-
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
