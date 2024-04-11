@@ -7,7 +7,7 @@ Evento exclusivo e gratuito, promovido pela Include Engenharia.
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ 
  
 </p>
 
@@ -23,4 +23,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Criar meu próprio site/blog, do tema Oppenheimer e Barbie, que fale sobre mim e sobre a Include Engenharia para o Processo Seletivo Trainee.
 
-Feito para a Include
+Feito para a Include...
