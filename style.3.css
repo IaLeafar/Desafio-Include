@@ -8,17 +8,20 @@
  --text-color: rgba(0, 0, 0, 1);
  --bg-url: url(Assets/Oppe\ Light.jpg);
  --stroke-color: rgba(255, 255, 255, 0.5);
---switch-color-url: url(./Assets/moon-stars.svg)
+--switch-color-url: url(./Assets/moon-stars.svg);
+--highlight-color: rgba(0, 0, 0, 0.2);
 }
 .light{
   --text-color: black;
 --bg-url: url(Assets/Oppe\ Black\ 2.jpg);
  --stroke-color: rgba(0, 0, 0, 0.5);
---switch-color-url: url(./Assets/sun.svg)
+--switch-color-url: url(./Assets/sun.svg);
+--highlight-color: rgba(0, 0, 0, 0.2);
 }
 
 body {
  background: var(--bg-url) no-repeat top center/cover;
+ height: 100vh;
 }
 body * {
   font-family: 'Inter', sans-serif;
@@ -64,11 +67,16 @@ top: 50%;
 left: 0;
 z-index: 1;
 transform: translateY(-50%);
+animation: slide-out 0.3s forwards;
 }
 
+
 .light #switch button{
- right: 0;
- left: initial;
+  animation: slide-in 0.3s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color)
 }
 
 #switch span{
@@ -80,4 +88,21 @@ border: 1px solid var(--stroke-color);
 backdrop-filter: blur(4px);
 -webkit-backdrop-filter: blur(4px);
 border-radius: 9999px;
+}
+@keyframes slide-in {
+  from{
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
